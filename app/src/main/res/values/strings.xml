@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HN2_Task2_AlexRodriguez</string>
+    <string name="email">Correo</string>
+    <string name="pass">Contraseña</string>
+    <string name="enviar">Acceder</string>
+    <string name="nuevoUsuario">Registrar</string>
+    <string name="email_hint">Correo</string>
+    <string name="nombre_hint">Nombre</string>
+    <string name="pass_hint">Contraseña</string>
+    <string name="guardar">Registrar</string>
+    <string name="perfil">Perfil</string>
+    <string name="descripcion">Descripción</string>
+    <string name="personajes">Naves</string>
+    <string name="objetos">Objetos</string>
+    <string name="tips">Ayudas</string>
+    <string name="ajustes">Versión</string>
+    <string name="salir">Salir</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descripcion2">Este es un juego nuevo</string>
+</resources>
