@@ -21,10 +21,10 @@ import java.util.List;
 public class ItemAdapter extends ArrayAdapter<ItemBean> {
     private Context context;
     private int resource;
-    private List<ItemBean> objects;
+    private ArrayList<ItemBean> objects;
 
 
-    public ItemAdapter(Context context, int resource, List<ItemBean> objects) {
+    public ItemAdapter(Context context, int resource, ArrayList<ItemBean> objects) {
         super(context, resource, objects);
         this.context=context ;
         this.resource = resource ;

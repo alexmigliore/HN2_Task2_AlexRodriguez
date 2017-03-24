@@ -4,8 +4,8 @@
     android:layout_height="match_parent">
 
     <ImageView android:id="@+id/foto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
 
     <TextView android:id="@+id/txtItem"
         android:layout_width="match_parent"

@@ -13,7 +13,9 @@ import android.view.View;
 
 import com.example.alumnos.hn2_task2_alexrodriguez.R;
 import com.example.alumnos.hn2_task2_alexrodriguez.fragment.DescripcionFragment;
+import com.example.alumnos.hn2_task2_alexrodriguez.fragment.ObjetosFragment;
 import com.example.alumnos.hn2_task2_alexrodriguez.fragment.PerfilFragment;
+import com.example.alumnos.hn2_task2_alexrodriguez.fragment.PersonajesFragment;
 import com.example.alumnos.hn2_task2_alexrodriguez.fragment.VersionFragment;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -71,9 +73,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.item_personajes:
+                PersonajesFragment personajesFragment = PersonajesFragment.newInstance();
+                fm.beginTransaction().replace(R.id.container,personajesFragment).commit() ;
                 break;
 
             case R.id.item_objetos:
+                ObjetosFragment objetosFragment = ObjetosFragment.newInstance();
+                fm.beginTransaction().replace(R.id.container,objetosFragment).commit() ;
                 break;
 
             case R.id.item_tips:

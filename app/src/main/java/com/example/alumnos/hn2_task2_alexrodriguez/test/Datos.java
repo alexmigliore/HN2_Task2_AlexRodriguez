@@ -2,6 +2,7 @@ package com.example.alumnos.hn2_task2_alexrodriguez.test;
 
 import com.example.alumnos.hn2_task2_alexrodriguez.R;
 import com.example.alumnos.hn2_task2_alexrodriguez.beans.AyudasBean;
+import com.example.alumnos.hn2_task2_alexrodriguez.beans.ItemBean;
 import com.example.alumnos.hn2_task2_alexrodriguez.beans.ObjetosBean;
 import com.example.alumnos.hn2_task2_alexrodriguez.beans.PersonajeBean;
 
@@ -11,9 +12,9 @@ import java.util.ArrayList;
 
 public class Datos {
 
-    public static ArrayList<PersonajeBean> getPersonajes(){
+    public static ArrayList<ItemBean> getPersonajes(){
 
-        ArrayList<PersonajeBean> personajes = new ArrayList<>();
+        ArrayList<ItemBean> personajes = new ArrayList<>();
 
         personajes.add(new PersonajeBean("Nave 1", R.drawable.personaje1, "Detalles"));
         personajes.add(new PersonajeBean("Nave 2", R.drawable.personaje2, "Detalles"));
@@ -23,9 +24,9 @@ public class Datos {
 
     }
 
-    public static ArrayList<ObjetosBean> getObjetos() {
+    public static ArrayList<ItemBean> getObjetos() {
 
-        ArrayList<ObjetosBean> objetos = new ArrayList<>();
+        ArrayList<ItemBean> objetos = new ArrayList<>();
 
         objetos.add(new ObjetosBean("Objeto 1", R.drawable.objeto1, "Detalles"));
         objetos.add(new ObjetosBean("Objeto 2", R.drawable.objeto2, "Detalles"));

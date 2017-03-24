@@ -3,10 +3,10 @@ package com.example.alumnos.hn2_task2_alexrodriguez.beans;
 import java.io.Serializable;
 
 /**
- * Created by ALUMNOS on 16/03/2017.
+ * Created by ALUMNOS on 24/03/2017.
  */
 
-public class ItemBean implements Serializable{
+public class ItemBean implements Serializable {
 
     String nombrePersonaje ;
     int foto ;
